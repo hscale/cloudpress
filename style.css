@@ -2,7 +2,7 @@
 Theme Name: CloudpressTheme URI: http://www.alexanderrokven.nl/demoGithub Theme URI: https://github.com/AlexanderRokven/cloudpress
 Author: CloudBase
 Description: Template by CloudBase
-Version: 1.0.0
+Version: 1.1.0
 */
 
 
@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6, a.post_ttl {
 a.post_ttl {
 	font-size:22px;
 }
-/*------------------------------ HEADER ------------------------------*/
+/*------------------------------ HEADERISH ------------------------------*/
 #secondarymenu-container {
 	position:relative;
 }
