@@ -84,14 +84,24 @@ echo '<!DOCTYPE html>'."\r\n";
 			<div id="logo">
 				<?php $SMTheme->block_logo();?>
 			</div>
-			
-			<div class="menusearch" title="">
-				<?php get_search_form(); ?>
-			</div>
+			<a href="http://www.alexanderrokven.nl/demo/aanmelden/als-postmaatje/"><div id="aanpost">Aanmelden postmaatje!</div></a>
+			<a href="http://www.alexanderrokven.nl/demo/aanmelden/als-schrijver/"><div id="aanschr">Aanmelden schrijver!</div></a>
+			<!--This shows the facebook connector-->
+			<div id="facebook">
+			<a href="https://www.facebook.com/Postmaatje-Eefies-391323204363467" target="_blank">
+			<img title="Facebook" alt="Facebook" src="http://www.alexanderrokven.nl/demo/wp-	content/themes/Cloudpress/images/social-profiles/facebook.png" height="32px">
+			</a></div>
+
+			<!--This shows the twitter connector-->
+			<div id="twitter">
+			<a href="https://twitter.com/postmaatjes" target="_blank">
+			<img title="Twitter" alt="Twitter" src="http://www.alexanderrokven.nl/demo/wp-	content/themes/Cloudpress/images/social-profiles/twitter.png" height="32px">
+			</a></div>
 			
 			<div id='menu-box'>
 			<div id='secondarymenu'>
 				<?php wp_nav_menu('depth=0&theme_location=sec-menu&container_class=menu-topmenu-container&menu_class=menus menu-topmenu&fallback_cb=block_sec_menu');	?>
+
 			</div>
 			</div>
 			
