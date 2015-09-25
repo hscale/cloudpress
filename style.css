@@ -1,8 +1,10 @@
 /*
-Theme Name: CloudpressTheme URI: http://www.alexanderrokven.nl/demoGithub Theme URI: https://github.com/AlexanderRokven/cloudpress
-Author: CloudBase
-Description: Template by CloudBase
-Version: 1.1.0
+Theme Name: Cloudpress
+Theme URI: http://www.alexanderrokven.nl/demo
+Github Theme URI: https://github.com/AlexanderRokven/cloudpress
+Author: CloudBase
+Description: Template by CloudBase
+Version: 1.2.1
 */
 
 
@@ -33,7 +35,7 @@ h1, h2, h3, h4, h5, h6, a.post_ttl {
 a.post_ttl {
 	font-size:22px;
 }
-/*------------------------------ HEADERISH ------------------------------*/
+/*------------------------------ HEADER ------------------------------*/
 #secondarymenu-container {
 	position:relative;
 }
@@ -243,6 +245,45 @@ body.woocommerce-page #content nav.woocommerce-pagination ul li span.current {
 		float:right;
 		margin-top:70px;
 	}
+	#facebook {
+		position: absolute;
+		top: 5em;
+		right: 15em;
+	}
+	#twitter {
+		position: absolute;
+		top: 5em;
+		right: 10em;
+	}
+	#aanpost{
+		background-color: #b54f41;
+		color: #fff;
+		height: auto;
+		width: auto;
+		position: absolute;
+		top: 5em;
+		font-family: 'Oswald';
+		font-size: 1.2em;
+		border: 1px solid #8a341d;
+		padding: 0.1em 0.5em 0.1em 0.5em;
+		border-radius: 2em;
+
+		}
+	#aanschr{
+		background-color: #b54f41;
+		color: #fff;
+		height: auto;
+		width: auto;
+		position: absolute;
+		top: 5em;
+		left:13em;
+		font-family: 'Oswald';
+		font-size: 1.2em;
+		border: 1px solid #8a341d;
+		padding: 0.1em 0.5em 0.1em 0.5em;
+		border-radius: 2em;
+
+		}
 	/*------------------------------ MENU ------------------------------*/
 	#secondarymenu-container {
 		height:155px;
