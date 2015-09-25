@@ -4,7 +4,7 @@ Theme URI: http://www.alexanderrokven.nl/demo
 Github Theme URI: https://github.com/AlexanderRokven/cloudpress
 Author: CloudBase
 Description: Template by CloudBase
-Version: 1.2.1
+Version: 1.2.2
 */
 
 
@@ -80,9 +80,7 @@ a.post_ttl {
 	position:relative;
 	font-family:'Kaushan';
 }
-.articles .post-caption h1, .articles .post-caption h2{
-	padding-left:70px;
-}
+
 .articles .post-caption p{
 	border-top:1px solid #e5e1d7;
 	border-bottom:1px solid #e5e1d7;
@@ -109,7 +107,7 @@ a.post_ttl {
 	font-family:'Oswald';
 	text-align:center;
 	color:#fff;
-	text-shadow:1px 1px 1px #441b15;
+	text-shadow:1px 1px 1px #441b15;	display:none;
 }
 .post-date .day{
 	font-size:22px;
